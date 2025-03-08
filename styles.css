@@ -1,9 +1,43 @@
 body {
     font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
+nav {
+    margin-bottom: 20px;
+}
 
-img {
+h1 {
+    margin-top: 0;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 20%;
+    height: auto;
     border-radius: 15%;
 }
 
+a.home-button {
+    background-color: #a8b6b9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
