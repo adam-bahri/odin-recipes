@@ -1,0 +1,9 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Assuming you have some img code like this */
+img {
+    border-radius: 15%;
+}
+
